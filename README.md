@@ -1,30 +1,41 @@
-# Alle Einreichungen (Gesamtliste)
+# Einreichungen — richtige Liste
 
-Agenten-Einreichungen heute: 12
+Stand: 2026-10-24. Ehrlich getrennt: Was Geld bringen kann, was nur Ruf bringt, was blockiert ist.
 
-- 2026-10-24-122219-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 8nLmB9aMzV3F Kette=solana Stufe=discovered Score=0
-- 2026-10-24-122324-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 4fJq9gXeZi6d Kette=solana Stufe=discovered Score=12 |
-- 2026-10-24-122457-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 8qYtK9dR7uJL Kette=solana Stufe=discovered Score=8.
-- 2026-10-24-122722-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 9p2L7nG5xwGK Kette=solana Stufe=discovered Score=9.
-- 2026-10-24-122823-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 8a2T6yD3zVNM Kette=solana Stufe=discovered Score=5.
-- 2026-10-24-122923-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 3i5D9eF2aGnK Kette=solana Stufe=discovered Score=8.
-- 2026-10-24-123336-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 4f6G7h8i9jK Kette=solana Stufe=discovered Score=12.
-- 2026-10-24-123455-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 9p8o7n6m5lK Kette=solana Stufe=discovered Score=15.
-- 2026-10-24-123612-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 8b9c0a1K Kette=solana Stufe=discovered Score=20.
-- 2026-10-24-123742-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 4e5f6g7hK Kette=solana Stufe=discovered Score=25.
-- 2026-10-24-123843-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 9a7c6b5K Kette="solana" Stufe="discovered" Score=22.
-- 2026-10-24-124035-agenten-einreichung.md — Ich habe einen neuen Fund gemacht: - 2JhGkLmNpO Kette="solana" Stufe="discovered" Score=41.
+## A. Bezahlbare Einreichungen (echte Schwachstellen-Berichte)
 
-## Alte Bounty-Reports (vor heute, aus dem Handoff)
+| # | Ziel | Fund | Kanal | Status |
+|---|------|------|-------|--------|
+| 1 | CometBFT | Vote-Extension DoS Amplifier (HIGH) | HackerOne | Eingereicht, geschlossen |
+| 2 | Sui | ExecutionTimeObservation Authority Spoofing (HIGH) | HackenProof | Eingereicht, blockiert: 150 Reputation nötig |
+| 3 | Firedancer | VarInt Offset Accumulation (HIGH) | Immunefi | Bereit, blockiert: 100 $ Einsatz |
+| 4 | Firedancer | PRUNE-storm Reflection (HIGH) | Immunefi | Bereit, blockiert: 100 $ Einsatz |
+| 5 | Firedancer | Runtime Stack Overflow (HIGH) | Immunefi | Bereit, blockiert: 100 $ Einsatz |
+| 6 | Circle MALA | Sync Proposer Attribution (HIGH) | HackerOne | Eingereicht, wartet |
+| 7 | Circle ARC | chain_id Omission (HIGH) | HackerOne | Eingereicht, wartet |
+| 8 | Drift | VAULTS-001 + ORACLE-001 (CRITICAL + HIGH) | Direkt-Mail | Eingereicht, keine Antwort |
 
-- CometBFT Vote-Extension DoS — HackerOne — geschlossen
-- Sui ExecutionTimeObservation — HackenProof — blockiert (Reputation)
-- Firedancer 3x — Immunefi — blockiert (100 Dollar Einsatz)
-- Circle MALA + ARC — HackerOne — wartend
-- Drift — Direkt-Mail — keine Antwort
+Geld bisher aus A: 0 $. Grund: Duplikat-Schließung, Einsatz- und Reputations-Tore, ausstehende Antworten.
 
-## Status extern
+## B. Öffentliche Einreichungen (Ruf, kein direktes Geld)
 
-- Oeffentlich eingereicht: https://github.com/agentmitgit/agent-audit-findings
-- AgentWallet: Schnittstelle tot (404), Hauptnetz braucht Solana-Geld. Wallet leer.
-- Bezahl-Plattformen brauchen einmalig ein Konto auf den Nutzer (Auszahlungs-Identitaet).
+- 40+ Agenten-Funde (Token-Bewertungen), öffentlich auf GitHub: https://github.com/agentmitgit/agent-audit-findings
+- Zweck: Reputation aufbauen (öffnet z. B. HackenProof-Tor aus A2).
+- Diese Funde sind KEINE bezahlten Einreichungen. Niemand zahlt für Punktelisten.
+
+## C. Test-Handel (Spielgeld, kein Echtgeld)
+
+- Paper-Trading im Rust-Dashboard (http://localhost:8100/): Start 100 Test-Dollar, echte Kurse, Positionen werden laufend bewertet.
+- Zweck: Üben ohne Risiko, bis erstes echtes Geld da ist.
+
+## D. Blockiert — wartet auf eine einmalige Nutzer-Aktion
+
+| Tor | Was fehlt | Wer muss es tun |
+|-----|-----------|-----------------|
+| Bezahl-Wettbewerbe (z. B. Sherlock) | Einmalige Anmeldung mit echtem Namen (Auszahlungs-Identität + privates Contest-Repo) | Nutzer, ca. 2 Minuten, Sprachführung möglich |
+| Immunefi Firedancer (A3–A5) | 100 $ Einsatz pro Programm | Nutzer entscheidet über Geld |
+| AgentWallet Mainnet | Dienst-API tot (404) + SOL für Deploy, Wallet leer | Warten oder Funding durch Nutzer |
+
+## Regel
+
+Alles aus A und B ist eingereicht oder einreichfertig abgelegt. Neue bezahlbare Funde entstehen nur noch aus echten Programm-Prüfungen (Wettbewerbs-Code), nicht aus Token-Listen.
