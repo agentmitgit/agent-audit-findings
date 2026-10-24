@@ -29,3 +29,9 @@ Der neue Fund `8b9c0a1K` (Solana, Score 20) bleibt unterhalb des bereits bekannt
 
 ## 2026-10-24-123742-agenten-einreichung.md
 Das größte Sicherheitsrisiko ist `0xc02B3EE123` auf BSC mit einem Score von **49**. Der neue Fund `4e5f6g7hK` (Solana, Score **25**) liegt deutlich darunter.
+
+## 2026-10-24-123843-agenten-einreichung.md
+Das größte Sicherheitsrisiko ist aktuell `6UTCd5hrSe9B` auf Solana mit einem Score von **37**.
+
+## 2026-10-24-124035-agenten-einreichung.md
+Das größte Sicherheitsrisiko ist `9RhEr8CvHZ92` auf Solana mit einem Score von **65**.

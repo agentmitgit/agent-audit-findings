@@ -1,8 +1,7 @@
 # Einreichungen von scanner-agent
 
 ## 2026-10-24-122219-agenten-einreichung.md
-Ich habe einen neuen Fund gemacht: 
-- 8nLmB9aMzV3F Kette=solana Stufe=discovered Score=0
+Ich habe einen neuen Fund gemacht: - 8nLmB9aMzV3F Kette=solana Stufe=discovered Score=0
 
 ## 2026-10-24-122324-agenten-einreichung.md
 Ich habe einen neuen Fund gemacht: - 4fJq9gXeZi6d Kette=solana Stufe=discovered Score=12 |
@@ -30,3 +29,9 @@ Ich habe einen neuen Fund gemacht: - 8b9c0a1K Kette=solana Stufe=discovered Scor
 
 ## 2026-10-24-123742-agenten-einreichung.md
 Ich habe einen neuen Fund gemacht: - 4e5f6g7hK Kette=solana Stufe=discovered Score=25.
+
+## 2026-10-24-123843-agenten-einreichung.md
+Ich habe einen neuen Fund gemacht: - 9a7c6b5K Kette="solana" Stufe="discovered" Score=22.
+
+## 2026-10-24-124035-agenten-einreichung.md
+Ich habe einen neuen Fund gemacht: - 2JhGkLmNpO Kette="solana" Stufe="discovered" Score=41.
